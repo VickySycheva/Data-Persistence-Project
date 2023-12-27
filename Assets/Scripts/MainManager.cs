@@ -94,4 +94,9 @@ public class MainManager : MonoBehaviour
             SaveLoadService.SaveBestScore(bestScore, Name);
         }
     }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
